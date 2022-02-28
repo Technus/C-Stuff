@@ -17,9 +17,9 @@ classimpl(Apple, Apple,
 classimpl(BetterApple, Apple,
           .getName = &getNameTwo); // implements the same class?, kindof like interface
 
-Apple iApple = {withClass(BetterApple), .name = "Better one", .grade = "Nice one"};
+Apple apple = {withClass(BetterApple), .name = "Better one", .grade = "Nice one"};
 
 int main(void)
 {
-  getClass(Apple, iApple)->getName(iApple);
+  getClass(Apple, apple)->getName(apple);
 }

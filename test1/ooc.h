@@ -15,8 +15,8 @@ struct oObject // The object data
 struct oClass // The class object data
 {
   struct oObject; // extends object
-  struct vClass * super;
-  unsigned char * name;
+  struct vClass *  super;
+  unsigned char *  name;
 };
 
 struct vClass // The Class class

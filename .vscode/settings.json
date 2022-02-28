@@ -1,8 +1,7 @@
 {
   "files.associations": {
     "*.xbm": "c",
-    "ooc.h": "c",
-    "class.h": "c",
-    "object.h": "c"
+    "*.h": "c",
+    "*.c": "c"
   }
 }
