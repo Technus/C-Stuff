@@ -2,6 +2,12 @@
   "files.associations": {
     "*.xbm": "c",
     "*.h": "c",
-    "*.c": "c"
+    "*.c": "c",
+    "tuple": "c",
+    "type_traits": "c",
+    "utility": "c",
+    "initializer_list": "c",
+    "list": "c",
+    "xstring": "c"
   }
 }
